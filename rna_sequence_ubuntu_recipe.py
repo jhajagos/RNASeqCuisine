@@ -17,7 +17,7 @@ import config_version_2014 as config_version
 from fabric.api import env, run, sudo
 
 env.user = "ubuntu"
-env.key_filename = "~/Downloads/jh_bioinformatics2014.pem" #Change for your private key
+env.key_filename = "mykey.pem" #Change for your private key
 
 
 def download_and_install_samtools():
